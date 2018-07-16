@@ -14,3 +14,6 @@ export * from 'graphql-tools';
 
 // ApolloServer integration.
 export { ApolloServer } from './ApolloServer';
+
+// testUtil exports
+export { startTestServer, toPromise } from './test-utils';

@@ -19,3 +19,6 @@ export {
   registerServer,
   ServerRegistration,
 } from './ApolloServer';
+
+// testUtil exports
+export { startTestServer, toPromise } from './test-utils';

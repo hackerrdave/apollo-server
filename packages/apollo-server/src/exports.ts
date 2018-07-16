@@ -11,3 +11,6 @@ export {
   UserInputError,
   gql,
 } from 'apollo-server-core';
+
+// testUtil exports
+export { startTestServer, toPromise } from 'apollo-server-express';
